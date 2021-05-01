@@ -1,0 +1,25 @@
+
+.card{
+    margin-top: 5%;
+   width: 100%;
+   height: 100%;
+   align-items: center;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+   font-family: sans-serif;
+   transition: 0.5s ease-in-out !important;
+   z-index: 1;
+}
+.card:hover{
+    content: '';
+    border-color: rgb(94, 91, 91);
+    transform: translateY(-8px);
+    /* transition: 0.7s ease-in-out !important; */
+}
+img{
+    mix-blend-mode: darken;
+}
+.buttons{
+    margin-top: 3%;
+}
+
+
